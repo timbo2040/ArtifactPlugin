@@ -1,0 +1,11 @@
+name: ArtifactPlugin
+version: '${project.version}'
+main: com.tiptow.Main
+api-version: '1.20'
+commands:
+  giveartifact:
+    description: Gives an artifact to the player.
+    usage: /giveartifact [type]
+    examples: /giveartifact vitality
+  resetartifacts:
+    description: Resets all artifact data.
